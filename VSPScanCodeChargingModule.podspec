@@ -35,6 +35,12 @@ VSPScanCodeChargingModule 扫码充电
   s.static_framework = true
   s.resource = 'VSPScanCodeChargingModule.bundle'
 
+
+  s.pod_target_xcconfig = {
+    'OTHER_LDFLAGS' => '-lObjC',
+    'VALID_ARCHS' => 'x86_64 armv7 arm64'
+  }
+
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'YYKit'
   s.dependency 'HondaConnectSDK'
