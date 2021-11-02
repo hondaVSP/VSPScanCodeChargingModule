@@ -1,0 +1,6 @@
+framework module VSPScanCodeChargingModule {
+  umbrella header "VSPScanCodeChargingModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
