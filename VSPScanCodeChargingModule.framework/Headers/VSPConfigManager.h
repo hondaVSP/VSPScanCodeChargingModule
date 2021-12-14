@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "VSPScanCodeChargingVehicleModel.h"
-#import "VSPScanCodeChargingService.h"
 
 typedef NS_ENUM(NSUInteger, VSPConfigType) {
     VSPConfigTypeWDHAC,
